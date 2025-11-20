@@ -50,8 +50,8 @@ Config.Messages = {
 
 -- Misc
 Config.Lobby = {
-    defaultPublicBucket = 0,
     commandName = "menulobby",
     keyMapping = "F7", -- Tasto per il keymapping
     keyMappingDesc = "Apri il menu lobby" -- Descrizione del keymapping
+
 }
