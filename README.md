@@ -41,7 +41,6 @@ All strings, key bindings, and the default public bucket ID are configured in `l
 
 ```lua
 Config.Lobby = {
-    defaultPublicBucket = 0,
     commandName = "menulobby",
     keyMapping = "F7", // Default key to open the menu
     keyMappingDesc = "Apri il menu lobby" 
@@ -90,7 +89,6 @@ Tutte le stringhe, le associazioni di tasti e l'ID del bucket pubblico predefini
 
 ```lua
 Config.Lobby = {
-    defaultPublicBucket = 0,
     commandName = "menulobby",
     keyMapping = "F7", // Tasto per il keymapping
     keyMappingDesc = "Apri il menu lobby" // Descrizione del keymapping
