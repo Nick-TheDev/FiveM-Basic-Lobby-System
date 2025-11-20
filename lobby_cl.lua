@@ -22,7 +22,7 @@ end
 local function openInfo()
     local lobby = lib.callback.await('nick_lobby:getPlayerBucket')
     local text = ""
-    if lobby == Config.Lobby.defaultPublicBucket then
+    if lobby == 0 then
         text = Config.Messages.seiInPub
     else
         text = Config.Messages.seiInPriv .. lobby
@@ -219,4 +219,5 @@ AddEventHandler('nick_lobby:requestEntrare', function(bucketTarget, bucketSource
             lobbynotify(Config.Messages.seiEntratoInLobby .. bucketSource)
         end
     end
+
 end)
